@@ -4,6 +4,10 @@
 
 > **ORCHORDS — BUILD DIFFERENT.**
 
+> ⭐ If you like what ORCHORDS is building or find our public work useful, consider starring the repositories that interest you. It helps more people discover our projects and open-source work.
+
+> **Interested in sponsoring ORCHORDS?** Sponsorships start at **US$1,000**. Depending on the sponsorship level, sponsors may receive public recognition, logo and website placement, sponsor updates and early previews, roadmap-feedback briefings, priority issue triage, and engineering or integration discussions across suitable ORCHORDS projects. Sponsorship does not buy control of our roadmap or guarantee feature implementation. Contact **[crm@orchords.com](mailto:crm@orchords.com)**.
+
 ## About Us
 
 ORCHORDS is an independent technology company building software, social platforms, developer tooling, infrastructure, open-source technology, and artificial intelligence systems.

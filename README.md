@@ -1,6 +1,12 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ORCHORDS/docs/main/assets/1080x360.jpg" width="1080" alt="ORCHORDS — BUILD DIFFERENT.">
+</p>
+
+> **ORCHORDS — BUILD DIFFERENT.**
+
 ## About Us
 
-ORCHORDS is an independent technology company building software, artificial intelligence systems, social platforms, developer tooling, infrastructure, and open technical knowledge.
+ORCHORDS is an independent technology company building software, social platforms, developer tooling, infrastructure, open-source technology, and artificial intelligence systems.
 
 We design, build, operate, and continuously improve our products in-house — from infrastructure and security to the interfaces people use every day.
 
@@ -8,10 +14,9 @@ We design, build, operate, and continuously improve our products in-house — fr
 
 ## Recent Projects
 
-- [OrchordsAI](https://github.com/ORCHORDS/OrchordsAI) - Artificial intelligence systems, assistants, model integrations, automation, and AI-powered product development.
-- [W.A.S.P](https://github.com/ORCHORDS/W.A.S.P) - The engineering project behind [thewam.app](https://thewam.app), a social platform focused on identity, creators, communities, and new forms of online interaction.
-- [ORCHORDS Documentation](https://github.com/ORCHORDS/docs) - A growing engineering and technical knowledge base covering development, infrastructure, APIs, security, deployment, and research.
-- [orchords.com](https://github.com/ORCHORDS/orchords.com) - ORCHORDS company platform, engineering monorepo, operations, security, and releases.
+- [OrchordsAI](https://github.com/ORCHORDS/OrchordsAI) — Private-by-design, local-first Android AI workspace with multi-provider chat, MCP tooling, voice, search, rich rendering, and local persistence.
+- [ORCHORDS Documentation](https://github.com/ORCHORDS/docs) — Public engineering, security, governance, infrastructure, standards, and technical knowledge maintained by ORCHORDS.
+- [orchords-web-pilot](https://github.com/ORCHORDS/orchords-web-pilot) — Public ORCHORDS web automation and browser-workflow project.
 
 ## Languages
 
@@ -24,9 +29,9 @@ We design, build, operate, and continuously improve our products in-house — fr
 
 - Web (JavaScript, TypeScript, React, Next.js, Node.js, modern Web APIs)
 - Android (Kotlin, Jetpack Compose)
-- Artificial Intelligence (LLMs, agents, local inference, model integrations, retrieval systems)
 - Infrastructure (Cloudflare, Docker, Linux, GitHub Actions, self-hosted runners, CI/CD)
 - Security (dependency security, secret scanning, static analysis, container scanning, authentication and authorization)
+- Artificial Intelligence (LLMs, agents, local inference, model integrations, retrieval systems)
 
 ###
 

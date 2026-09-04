@@ -6,7 +6,7 @@
 
 > ⭐ If you like what ORCHORDS is building or find our public work useful, consider starring the repositories that interest you. It helps more people discover our projects and open-source work.
 
-> **Interested in sponsoring ORCHORDS?** Sponsorships start at **US$1,000**. Depending on the sponsorship level, sponsors may receive public recognition, logo and website placement, sponsor updates and early previews, roadmap-feedback briefings, priority issue triage, and engineering or integration discussions across suitable ORCHORDS projects. Sponsorship does not buy control of our roadmap or guarantee feature implementation. Contact **[crm@orchords.com](mailto:crm@orchords.com)**.
+> **Interested in sponsoring ORCHORDS?** Sponsorships start at **US$346**. Depending on the sponsorship level, sponsors may receive public recognition, logo and website placement, sponsor updates and early previews, roadmap-feedback briefings, priority issue triage, and engineering or integration discussions across suitable ORCHORDS projects. Sponsorship does not buy control of our roadmap or guarantee feature implementation. Contact **[crm@orchords.com](mailto:crm@orchords.com)**.
 
 ## About Us
 
@@ -16,11 +16,11 @@ We design, build, operate, and continuously improve our products in-house — fr
 
 🌐 [orchords.com](https://orchords.com)
 
-## Recent Projects
+## Public Projects
 
-- [OrchordsAI](https://github.com/ORCHORDS/OrchordsAI) — Private-by-design, local-first Android AI workspace with multi-provider chat, MCP tooling, voice, search, rich rendering, and local persistence.
+- [Orchords Studio AI](https://github.com/ORCHORDS/OrchordsStudioAi) — Private-by-design, local-first Android AI workspace with multi-provider chat, MCP tooling, voice, search, rich rendering, and local persistence.
+- [Orchords Web Pilot](https://github.com/ORCHORDS/OrchordsBrowserPilot) — Model Context Protocol server that lets coding agents drive a real browser through Playwright-backed tools.
 - [ORCHORDS Documentation](https://github.com/ORCHORDS/docs) — Public engineering, security, governance, infrastructure, standards, and technical knowledge maintained by ORCHORDS.
-- [orchords-web-pilot](https://github.com/ORCHORDS/orchords-web-pilot) — Public ORCHORDS web automation and browser-workflow project.
 
 ## Languages
 

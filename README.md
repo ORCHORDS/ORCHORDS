@@ -16,11 +16,11 @@ We design, build, operate, and continuously improve our products in-house — fr
 
 🌐 [orchords.com](https://orchords.com)
 
-## Recent Projects
+## Public Projects
 
-- [OrchordsAI](https://github.com/ORCHORDS/OrchordsAI) — Private-by-design, local-first Android AI workspace with multi-provider chat, MCP tooling, voice, search, rich rendering, and local persistence.
+- [Orchords Studio AI](https://github.com/ORCHORDS/OrchordsStudioAi) — Private-by-design, local-first Android AI workspace with multi-provider chat, MCP tooling, voice, search, rich rendering, and local persistence.
+- [Orchords Web Pilot](https://github.com/ORCHORDS/OrchordsBrowserPilot) — Model Context Protocol server that lets coding agents drive a real browser through Playwright-backed tools.
 - [ORCHORDS Documentation](https://github.com/ORCHORDS/docs) — Public engineering, security, governance, infrastructure, standards, and technical knowledge maintained by ORCHORDS.
-- [orchords-web-pilot](https://github.com/ORCHORDS/orchords-web-pilot) — Public ORCHORDS web automation and browser-workflow project.
 
 ## Languages
 

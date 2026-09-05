@@ -22,6 +22,15 @@ We design, build, operate, and continuously improve our products in-house — fr
 - [Orchords Web Pilot](https://github.com/ORCHORDS/OrchordsBrowserPilot) — Model Context Protocol server that lets coding agents drive a real browser through Playwright-backed tools.
 - [ORCHORDS Documentation](https://github.com/ORCHORDS/docs) — Public engineering, security, governance, infrastructure, standards, and technical knowledge maintained by ORCHORDS.
 
+## Community
+
+Questions, implementation ideas, and usage discussions are welcome on the public product repositories:
+
+- [Orchords Studio AI Discussions](https://github.com/ORCHORDS/OrchordsStudioAi/discussions) · [Issues](https://github.com/ORCHORDS/OrchordsStudioAi/issues)
+- [Orchords Web Pilot Discussions](https://github.com/ORCHORDS/OrchordsBrowserPilot/discussions) · [Issues](https://github.com/ORCHORDS/OrchordsBrowserPilot/issues)
+
+Use Discussions for questions, ideas, and experience sharing. Use Issues for reproducible bugs, concrete implementation gaps, and scoped work that needs tracking.
+
 ## Languages
 
 - JavaScript / TypeScript

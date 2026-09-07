@@ -1,0 +1,51 @@
+name: Profile Quality
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  validate:
+    name: Validate profile content
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Validate Markdown integrity
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+
+          files = sorted(Path('.').rglob('*.md'))
+          if not files:
+              raise SystemExit('No Markdown files found')
+
+          readme = Path('README.md')
+          if not readme.is_file() or not readme.read_text(encoding='utf-8').strip():
+              raise SystemExit('README.md is missing or empty')
+
+          markers = ('<<<<<<<', '=======', '>>>>>>>')
+          for path in files:
+              text = path.read_text(encoding='utf-8')
+              for marker in markers:
+                  if any(line.startswith(marker) for line in text.splitlines()):
+                      raise SystemExit(f'{path}: unresolved merge-conflict marker {marker!r}')
+
+          print(f'Validated {len(files)} Markdown file(s); README.md is present and non-empty.')
+          PY
